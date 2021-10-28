@@ -1,12 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-html,
-body {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
+@use "sass:math";
 
 @import "./grid.scss";
+@import "./flexbox.scss";
 @import "./padding_margin.scss";
+@import "./global.scss";

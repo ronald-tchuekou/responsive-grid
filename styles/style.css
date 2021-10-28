@@ -1,14 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html,
-body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
 /********************\
     Mixin
 \********************/
@@ -478,6 +467,179 @@ body {
     left: 100%;
   }
 }
+/********************\
+    Mixin
+\********************/
+.d-flex {
+  display: flex;
+  width: 100%;
+}
+.d-flex.content-center {
+  justify-content: center;
+}
+.d-flex.content-end {
+  justify-content: end;
+}
+.d-flex.content-flex-end {
+  justify-content: flex-end;
+}
+.d-flex.content-flex-start {
+  justify-content: flex-start;
+}
+.d-flex.content-left {
+  justify-content: left;
+}
+.d-flex.content-right {
+  justify-content: right;
+}
+.d-flex.content-safe {
+  justify-content: safe;
+}
+.d-flex.content-unsafe {
+  justify-content: unsafe;
+}
+.d-flex.content-start {
+  justify-content: start;
+}
+.d-flex.content-stretch {
+  justify-content: stretch;
+}
+.d-flex.content-between {
+  justify-content: space-between;
+}
+.d-flex.content-around {
+  justify-content: space-around;
+}
+.d-flex.content-evenly {
+  justify-content: space-evenly;
+}
+.d-flex.items-center {
+  align-items: center;
+}
+.d-flex.items-end {
+  align-items: flex-end;
+}
+.d-flex.items-start {
+  align-items: flex-start;
+}
+.d-flex.items-baseline {
+  align-items: baseline;
+}
+.d-flex .flex-none {
+  flex: none;
+}
+.d-flex .flex-auto {
+  flex: auto;
+}
+.d-flex .flex-1 {
+  flex: 1;
+}
+.d-flex .flex-grow-1 {
+  flex-grow: 1;
+}
+.d-flex .flex-shrink-1 {
+  flex-shrink: 1;
+}
+.d-flex .flex-2 {
+  flex: 2;
+}
+.d-flex .flex-grow-2 {
+  flex-grow: 2;
+}
+.d-flex .flex-shrink-2 {
+  flex-shrink: 2;
+}
+.d-flex .flex-3 {
+  flex: 3;
+}
+.d-flex .flex-grow-3 {
+  flex-grow: 3;
+}
+.d-flex .flex-shrink-3 {
+  flex-shrink: 3;
+}
+.d-flex .flex-4 {
+  flex: 4;
+}
+.d-flex .flex-grow-4 {
+  flex-grow: 4;
+}
+.d-flex .flex-shrink-4 {
+  flex-shrink: 4;
+}
+.d-flex .flex-5 {
+  flex: 5;
+}
+.d-flex .flex-grow-5 {
+  flex-grow: 5;
+}
+.d-flex .flex-shrink-5 {
+  flex-shrink: 5;
+}
+.d-flex .flex-6 {
+  flex: 6;
+}
+.d-flex .flex-grow-6 {
+  flex-grow: 6;
+}
+.d-flex .flex-shrink-6 {
+  flex-shrink: 6;
+}
+.d-flex .flex-7 {
+  flex: 7;
+}
+.d-flex .flex-grow-7 {
+  flex-grow: 7;
+}
+.d-flex .flex-shrink-7 {
+  flex-shrink: 7;
+}
+.d-flex .flex-8 {
+  flex: 8;
+}
+.d-flex .flex-grow-8 {
+  flex-grow: 8;
+}
+.d-flex .flex-shrink-8 {
+  flex-shrink: 8;
+}
+.d-flex .flex-9 {
+  flex: 9;
+}
+.d-flex .flex-grow-9 {
+  flex-grow: 9;
+}
+.d-flex .flex-shrink-9 {
+  flex-shrink: 9;
+}
+.d-flex .flex-10 {
+  flex: 10;
+}
+.d-flex .flex-grow-10 {
+  flex-grow: 10;
+}
+.d-flex .flex-shrink-10 {
+  flex-shrink: 10;
+}
+.d-flex .flex-11 {
+  flex: 11;
+}
+.d-flex .flex-grow-11 {
+  flex-grow: 11;
+}
+.d-flex .flex-shrink-11 {
+  flex-shrink: 11;
+}
+.d-flex .flex-12 {
+  flex: 12;
+}
+.d-flex .flex-grow-12 {
+  flex-grow: 12;
+}
+.d-flex .flex-shrink-12 {
+  flex-shrink: 12;
+}
+
 /********************\
     Padding
 \********************/
@@ -3542,6 +3704,17 @@ body {
 .my-50 {
   margin-top: 50px !important;
   margin-bottom: 50px !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

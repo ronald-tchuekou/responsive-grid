@@ -43,10 +43,10 @@ $x-large: 1664px !default;
     }
     @for $var from 1 to ($columns + 1) {
         .col#{$suffix}-#{$var} {
-            width: $var / $columns * 100%;
+            width: #{math.div($var, $columns) * 100}#{"%"};
         }
         .col#{$suffix}-push-#{$var} {
-            left: $var / $columns * 100%;
+            left: #{math.div($var, $columns) * 100}#{"%"};
         }
     }
 }
